@@ -3,9 +3,9 @@
 <!-- https://i.postimg.cc/0jT0TT91/download.png -->
 <nav id="nav" class="links" :class="{ active: isActive}">
     <div class="container">
-        <a class="navbar-brand" href="/">
+        <!-- <a class="navbar-brand" href="/">
               <img src="https://i.postimg.cc/0jT0TT91/download.png" alt="">
-        </a>   
+        </a>    -->
     </div>
  
     <router-link @click="toggleNav" to="/">Home</router-link>
@@ -42,7 +42,7 @@ export default {
 .links{
     
     display:flex;
-    justify-content:end;
+    justify-content:center;
     gap: 10px;      
 }
 #nav{
