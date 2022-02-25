@@ -42,7 +42,7 @@ export default {
 .links{
     
     display:flex;
-    justify-content:end;
+    justify-content:center;
     gap: 10px;      
 }
 #nav{
