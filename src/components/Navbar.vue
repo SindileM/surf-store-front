@@ -4,7 +4,7 @@
 <nav id="nav" class="links" :class="{ active: isActive}">
     <div class="container">
         <a class="navbar-brand" href="/">
-              <img src="https://i.postimg.cc/0jT0TT91/download.png" alt="">
+              <!-- <img src="https://i.postimg.cc/0jT0TT91/download.png" alt=""> -->
         </a>   
     </div>
  
